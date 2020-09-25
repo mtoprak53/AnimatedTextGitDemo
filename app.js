@@ -17,15 +17,15 @@ const intervalId = setInterval(function() {
   for (let letter of letters) {
     letter.style.color =randomRGB();
   };
-}, 2000);
+}, 1000);
 
 
 // starts my addition to the code
 stopAfter = 10000;   // milliseconds
 
-setTimeout(function() {
-  clearInterval(intervalId);
-}, stopAfter);
+// setTimeout(function() {
+//   clearInterval(intervalId);
+// }, stopAfter);
 
 
 
